@@ -5,7 +5,16 @@ text-decoration: none;
 
 }
 
+.row {
+      
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
 
+
+
+
+}
 
 .navbar-default{
 
@@ -23,7 +32,7 @@ text-decoration: none;
 }
 
 .jumbotron{
-	background-color: #fbce8c;
+	background-color: #e0e0e0;
 
 }
 
@@ -35,4 +44,3 @@ body {
   
   margin-bottom: 80px;
 }
-
