@@ -457,3 +457,28 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+img {
+
+
+    max-width: 100%
+    height: auto;
+}
+
+
+.thumbnails a {
+
+
+width:33.3%;
+padding-right: 10px;
+padding-bottom: 20px;
+box-sizing: border-box;
+
+
+}
+
+
+
+
+
+
