@@ -46,32 +46,15 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
 
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #ffc36b; 
 }
 
 hr.star-primary {
-    border-color: #488dab;
+    border-color: #000;
 }
 
 hr.star-primary:after {
-    color: #488dab;
+    color: #000;
     background-color: #fff;
 }
 
@@ -82,7 +65,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #f8e7df;
+    /*background: #f8e7df;*/
+    background-image: url('../img/concrete.png')
 }
 
 header .container {
@@ -181,7 +165,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #ffc36b;
+    background: #f8e7df;
 }
 
 section.success a,
@@ -190,7 +174,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #488dab;
+    color: #fff;
 }
 
 @media(max-width:767px) {
@@ -220,7 +204,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #488dab;
+    background: #f8e7df;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -275,7 +259,7 @@ section.success a.active {
 .btn-outline.active {
     border: solid 2px #fff;
     color: #ffc36b;
-    background: #fff;
+    background: #000;
 }
 
 .floating-label-form-group {
@@ -344,7 +328,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #488dab;
+    background-color: #f8e7df;
 }
 
 footer .footer-col {
@@ -353,7 +337,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #488dab;
+    background-color: #f8e7df;
 }
 
 .btn-social {
@@ -437,7 +421,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #488dab;
+    background-color: #f8e7df;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -447,7 +431,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #488dab;
+    background-color: #f8e7df;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
