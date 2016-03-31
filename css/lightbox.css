@@ -162,7 +162,7 @@ body:after {
 }
 
 .lb-data {
-  padding: 0 4px;
+  padding:  4px;
   color: #ccc;
 }
 
@@ -207,4 +207,8 @@ body:after {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+.lightboxImage {
+  padding-bottom: 20px;
 }
