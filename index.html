@@ -568,7 +568,7 @@ swfobject.registerObject("FlashID");
 $("#sendMessage").on("click", function() {
     message = $("#contactform").serialize();
     $.ajax({
-        url: "//formspree.io/francine.jones@hotmail.co.nz", 
+        url: "https://formspree.io/francine.jones@hotmail.co.nz", 
         method: "POST",
         data: {message: message},
         dataType: "json"
