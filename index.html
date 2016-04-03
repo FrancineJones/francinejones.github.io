@@ -277,7 +277,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                   <form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/francine.jones@hotmail.co.nz"
+                   <form name="sentMessage" id="contactForm" novalidate 
       method="POST">
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -311,7 +311,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                <button type="submit" id="sendMessage" class="btn btn-success btn-lg">Send</button>
                             </div>
                         </div>
                     </form> 
@@ -562,6 +562,20 @@
 <script type="text/javascript">
 swfobject.registerObject("FlashID");
     </script>
+    <script>
+    var message = "";
+
+$("#sendMessage").on("click", function() {
+    message = $("#contactform").serialize();
+    $.ajax({
+        url: "//formspree.io/francine.jones@hotmail.co.nz", 
+        method: "POST",
+        data: {message: message},
+        dataType: "json"
+    });
+    alert('Thanks for the email, I\'ll be in touch promptly.');
+    return false;
+});</script>
 </body>
 
 </html>
