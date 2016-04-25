@@ -19,6 +19,8 @@
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
   
+  height: 100%;
+  
 }
 
 .background2
@@ -41,6 +43,8 @@
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
+  
+  height: 100%;
   
 }
 
@@ -66,6 +70,8 @@
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
+  
+  height: 100%;
 }
   
   .background4{
@@ -87,6 +93,8 @@
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
+  
+  height: 100%;
   }
   
   
@@ -109,4 +117,6 @@
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
+  
+  height: 100%;
   }
