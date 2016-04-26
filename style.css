@@ -14,7 +14,7 @@
   background-attachment: fixed;
   
   /* This is what makes the background image rescale based on its container's size */
-  background-size: cover;
+  background-size: 100%;
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
@@ -40,7 +40,7 @@
   background-attachment: fixed;
   
   /* This is what makes the background image rescale based on its container's size */
-  background-size: cover;
+  background-size: 100%;
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
@@ -67,7 +67,7 @@
   background-attachment: fixed;
   
   /* This is what makes the background image rescale based on its container's size */
-  background-size: cover;
+  background-size: 100%;
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
@@ -91,7 +91,7 @@
   background-attachment: fixed;
   
   /* This is what makes the background image rescale based on its container's size */
-  background-size: cover;
+  background-size: 100%;
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
@@ -116,7 +116,7 @@
   background-attachment: fixed;
   
   /* This is what makes the background image rescale based on its container's size */
-  background-size: cover;
+  background-size: 100%;
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
@@ -125,10 +125,3 @@
   overflow: hidden;
   }
   
-  body
-{
- height:100%;
-overflow: scroll;
--webkit-overflow-scrolling: touch;
-
-}
