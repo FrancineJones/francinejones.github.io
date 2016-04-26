@@ -27,6 +27,7 @@
     .background1 { 
        background-image: url(images/background-photo-mobile.jpg); 
         background-position: center center;
+        background-attachment: fixed;
   
     }
 
