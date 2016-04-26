@@ -19,7 +19,7 @@
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
   
-  height: 100hv;
+  height: 100%;
   overflow: hidden;
   
 }
@@ -127,3 +127,9 @@
   overflow: hidden;
   }
   
+
+@media screen and (max-width: 481px){
+  #background1{
+    background-image: url(images/background-photo-mobile.jpg);
+  }
+}
