@@ -20,6 +20,7 @@
   background-color:#464646;
   
   height: 100%;
+  overflow: hidden;
   
 }
 
@@ -45,7 +46,7 @@
   background-color:#464646;
   
   height: 100%;
-  
+  overflow: hidden;
 }
 
 
@@ -72,6 +73,7 @@
   background-color:#464646;
   
   height: 100%;
+  overflow: hidden;
 }
   
   .background4{
@@ -95,6 +97,7 @@
   background-color:#464646;
   
   height: 100%;
+  overflow: hidden;
   }
   
   
@@ -119,4 +122,11 @@
   background-color:#464646;
   
   height: 100%;
+  overflow: hidden;
   }
+  
+  body
+{
+  height:100%;
+  overflow: auto;
+}
