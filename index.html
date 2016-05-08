@@ -4,14 +4,9 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/lodash/4.11.2/lodash.min.js"></script>
+    <script src="javascript.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <script>
-window.addEventListener("loaded", function(){
-	var loaded = document.getElementById("loader-wrapper");
-	document.body.removeChild(loader-wrapper;
-});
-</script>
+
 
 </head>
 <meta charset="utf-8">
@@ -33,6 +28,13 @@ window.addEventListener("loaded", function(){
 </body>
 
 
-<script src="javascript.js"></script>
+
+<script>
+    $( document ).ready(function() {
+       setTimeout(function() {
+         $("#loader-wrapper").remove();
+    }, 2000);
+    });
+</script>
 
 </html>
