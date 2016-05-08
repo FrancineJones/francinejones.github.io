@@ -10,7 +10,7 @@
 
 </head>
 <meta charset="utf-8">
-<title>Color</title>
+<title>Francine Jones</title>
 
 
 <link rel="stylesheet" href="style.css">
@@ -28,7 +28,14 @@
 </body>
 
 
-
+<script>
+    // change the number (5) to how many images there are
+    for(var i = 1; i < 6; i++){
+        var images = new Image();
+        var imageLocation = "images/background-photo" + i + ".jpg";
+        images.src = imageLocation;
+    }    
+</script>
 <script>
     $( document ).ready(function() {
        setTimeout(function() {
