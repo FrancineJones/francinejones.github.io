@@ -3,15 +3,7 @@ $(window).on('wheel', _.throttle(animationFunction, 2600, {
   'trailing': false
 }))
 
-// var throttledAnimation = _.throttle(animationFunction, 2000, {
-//   'leading': true,
-//   'trailing': false
-// })
 
-// $(window).on('wheel', function(e) {
-//   throttledAnimation;
-  
-// })
 
 function animationFunction (e) {
   console.log(e)
@@ -58,3 +50,8 @@ function animationFunction (e) {
     // })
   }
 }
+
+
+  $('body').on("swipe",function(){
+    alert("swiped");
+  });                       
