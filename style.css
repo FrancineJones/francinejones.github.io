@@ -128,12 +128,6 @@
   }
   
 
-@media only screen and (max-width: 500px){
-  .background1{
-    background-image: url(images/background-photo-mobile.jpg);
-  }
-}
-
 #loader-wrapper{
   position:fixed;
   top:0;
