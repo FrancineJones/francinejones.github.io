@@ -60,26 +60,6 @@ function animationFunction (e) {
 
 $(window).swipe( {
   swipeUp:function(event, direction, distance, duration) {
-    
-    var currentClassNumber = parseInt($('body').attr("class").split("")[10]);
-    
-    var currentClass = $('body').attr("class").split(" ")[0];
-    var newClass = "background" + (currentClassNumber - 1);
-    
-    // console.clear();
-    // console.log("Current class is " + currentClass)
-    // console.log("new class is " +newClass);         
-    
-    $("body").removeClass(currentClass);
-    $("body").addClass(newClass);
-
-    if ($("body").hasClass("background0")) {
-        $("body").removeClass("background0").addClass("background1");
-    }
-    
-  },
-  
-  swipeDown:function(event, direction, distance, duration) {
     var currentClassNumber = parseInt($('body').attr("class").split("")[10]);
     
     var currentClass = $('body').attr("class").split(" ")[0];
@@ -95,6 +75,25 @@ $(window).swipe( {
     if ($("body").hasClass("background6")) {
         $("body").removeClass("background6").addClass("background5");
     }
+    
+  },
+  swipeDown:function(event, direction, distance, duration) {
+      var currentClassNumber = parseInt($('body').attr("class").split("")[10]);
+    
+    var currentClass = $('body').attr("class").split(" ")[0];
+    var newClass = "background" + (currentClassNumber - 1);
+    
+    // console.clear();
+    // console.log("Current class is " + currentClass)
+    // console.log("new class is " +newClass);         
+    
+    $("body").removeClass(currentClass);
+    $("body").addClass(newClass);
+
+    if ($("body").hasClass("background0")) {
+        $("body").removeClass("background0").addClass("background1");
+    }
+    
   },
   click:function(event, target) { 
   },
