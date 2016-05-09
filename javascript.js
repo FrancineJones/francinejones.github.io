@@ -52,6 +52,6 @@ function animationFunction (e) {
 }
 
 
-  $('body').on("swipe",function(){
+  $(window).on("swipe",function(){
     alert("swiped");
   });                       
