@@ -4,7 +4,7 @@
   background-image: url(images/background-photo1.jpg);
   
   /* Image is centered vertically and horizontally at all times */
-  background-position: center;
+  background-position: center center;
   
   /* Image doesn't repeat */
   background-repeat: no-repeat;
