@@ -7,12 +7,23 @@ function upAnimation(){
     
     var currentClass = $('body').attr("class").split(" ")[0];
     var newClass = "background" + (currentClassNumber - 1);
+    var oldLocation =  "locationName" + currentClassNumber + "Up";
+    var oldLocation2 =  "locationName" + currentClassNumber ;
+    var newLocation = "locationName" + (currentClassNumber - 1) + "Up";
    
     $("body").removeClass(currentClass);
     $("body").addClass(newClass);
+    
+    $("#placeNameID").removeClass(oldLocation);
+    $("#placeNameID").removeClass(oldLocation2);
+    
+    $("#placeNameID").addClass(newLocation);
+    
+    
 
     if ($("body").hasClass("background0")) {
         $("body").removeClass("background0").addClass("background1");
+        $("#placeNameID").removeClass("locationName0Up").addClass("locationName1Up");
     }
     setTimeout(function() {
       timer = false;
@@ -24,12 +35,25 @@ function downAnimation() {
     
     var currentClass = $('body').attr("class").split(" ")[0];
     var newClass = "background" + (currentClassNumber + 1);
+    var oldLocation = "locationName" + (currentClassNumber);
+    var oldLocation2 = "locationName" + (currentClassNumber + "Up");
+    var newLocation = "locationName" + (currentClassNumber + 1);
    
     $("body").removeClass(currentClass);
     $("body").addClass(newClass);
+    
+    $("#placeNameID").removeClass(oldLocation);
+    $("#placeNameID").removeClass(oldLocation2);
+    
+    $("#placeNameID").addClass(newLocation);
+    
+    
+    
+    $("#placeNameID").addClass("locationName" + (currentClassNumber + 1));
 
     if ($("body").hasClass("background6")) {
         $("body").removeClass("background6").addClass("background5");
+        $("#placeNameID").removeClass("locationName6").addClass("locationName5");
     }
      setTimeout(function() {
       timer = false;
@@ -73,3 +97,4 @@ $(window).swipe( {
   threshold:100,
   allowPageScroll:"vertical"
 });
+

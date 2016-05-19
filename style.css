@@ -274,3 +274,217 @@ body{
  min-height:100%;
  }
 
+.locationName1{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo1.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.locationName2{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo2.jpg") no-repeat;
+        background: cover;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+        
+ .locationName3{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo3.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+ 
+ 
+ .locationName4{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo4.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.locationName5{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo5.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.locationName6{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo6.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+/*Up animations*/
+
+.locationName1Up{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo1.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.locationName2Up{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo2.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+        
+ .locationName3Up{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo3.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+ 
+ 
+ .locationName4Up{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo4.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.locationName5Up{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 13vw;
+        text-align: center;
+        /*content: "WELLINGTON";*/
+        /*background-color: rgba(0,0,0,0.3);*/
+        background: url("images/background-photo5.jpg") no-repeat;
+        /*margin-top: 30%;*/
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        /*text-color:black;   */
+        /*background: url(img/background-photo1.jpg) no-repeat;*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.locationName6Up{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13vw;
+        text-align: center;      
+        background: url("images/background-photo6.jpg") no-repeat;      
+        position: absolute;
+        -webkit-animation-duration: 2.5s; 
+        -webkit-animation-delay: 0s;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}

@@ -1257,12 +1257,18 @@
 @keyframes fadeInDown {
   from {
     opacity: 0;
+    bottom: 100%;
+    background-position-y: 0%;
+    background-position-x: 49%;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
 
   to {
     opacity: 1;
+    bottom: 42%;  
+    background-position-y: 51.4%;
+    background-position-x: 49%;
     -webkit-transform: none;
     transform: none;
   }
@@ -1455,12 +1461,19 @@
 @keyframes fadeInUp {
   from {
     opacity: 0;
+    bottom: 0%;
+    /*position: absolute 0;*/
+    background-position-y: 100%;
+    background-position-x: 51%;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
 
   to {
     opacity: 1;
+    bottom: 42%;  
+    background-position-y: 49.6%;
+    background-position-x: 54%;
     -webkit-transform: none;
     transform: none;
   }
@@ -3341,7 +3354,8 @@
 
 body{
   -webkit-transition: background-image 2.6s ease-in-out;
-  transition: background-image 2.6s ease-in-out;
+  /*transition: background-image 2.6s ease-in-out;*/
+ 
 }
 
 .stop{
