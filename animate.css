@@ -9,8 +9,8 @@
  */
 
 .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -1530,10 +1530,17 @@
 @keyframes fadeOut {
   from {
     opacity: 1;
+    bottom: 42%;
+    background-position-y: 49.6%;
+    background-position-x: 54%;  
+                  
   }
 
   to {
     opacity: 0;
+    bottom: 42%;
+   background-position-y: 49.6%;
+   background-position-x: 54%;    
   }
 }
 
@@ -3353,7 +3360,7 @@
 }
 
 body{
-  -webkit-transition: background-image 2.6s ease-in-out;
+  -webkit-transition: background-image 1.8s ease-in-out;
   /*transition: background-image 2.6s ease-in-out;*/
  
 }

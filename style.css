@@ -277,7 +277,7 @@ body{
 .locationName1{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -295,7 +295,7 @@ body{
 .locationName2{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -314,7 +314,7 @@ body{
  .locationName3{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -333,7 +333,7 @@ body{
  .locationName4{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -351,7 +351,7 @@ body{
 .locationName5{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -369,7 +369,7 @@ body{
 .locationName6{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -389,7 +389,7 @@ body{
 .locationName1Up{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -407,7 +407,7 @@ body{
 .locationName2Up{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -425,7 +425,7 @@ body{
  .locationName3Up{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -444,7 +444,7 @@ body{
  .locationName4Up{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -462,7 +462,7 @@ body{
 .locationName5Up{
         font-family: Arial, Helvetica, sans-serif;
         
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;
         /*content: "WELLINGTON";*/
         /*background-color: rgba(0,0,0,0.3);*/
@@ -479,7 +479,7 @@ body{
 
 .locationName6Up{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 13vw;
+        font-size: 10vw;
         text-align: center;      
         background: url("images/background-photo6.jpg") no-repeat;      
         position: absolute;
