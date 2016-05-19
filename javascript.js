@@ -28,6 +28,7 @@ function upAnimation(){
     setTimeout(function() {
       timer = false;
     }, 2600);
+    displayName();
 }
 
 function downAnimation() {
@@ -58,6 +59,7 @@ function downAnimation() {
      setTimeout(function() {
       timer = false;
     }, 2600);
+    displayName();
 }
 
 function animationFunction (e) {
@@ -90,6 +92,7 @@ $(window).swipe( {
     if(timer == false){
       timer = true;
       upAnimation();
+    
     }
   },
   click:function(event, target) { 

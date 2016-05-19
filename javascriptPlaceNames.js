@@ -1,26 +1,4 @@
 var timer2 = false;
-$(window).on('wheel', displayName);
-
-$(window).swipe( {
-  swipeUp:function(event, direction, distance, duration) {
-    if(timer == false){
-      timer = true;
-      downAnimation();  
-    }
-    
-  },
-  swipeDown:function(event, direction, distance, duration) {
-    if(timer == false){
-      timer = true;
-      upAnimation();
-    }
-  },
-  click:function(event, target) { 
-  },
-  threshold:100,
-  allowPageScroll:"vertical"
-});
-
 
 function displayName(){ 
   
